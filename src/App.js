@@ -5,9 +5,9 @@ import Navbar from './components/Navbar'
 import {BrowserRouter as Router} from 'react-router-dom'
 import { ThemeProvider, unstable_createMuiStrictModeTheme } from '@material-ui/core'
 
-const theme = unstable_createMuiStrictModeTheme();
 
 function App() {
+	const theme = unstable_createMuiStrictModeTheme();
 	return (
 		<>
 			<ThemeProvider theme={theme}>
